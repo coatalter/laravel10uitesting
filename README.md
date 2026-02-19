@@ -1,6 +1,4 @@
-# 🚀 Tailwind CSS 4 Showcase — Laravel 10
-
-> **Pushing Tailwind CSS 4 to its absolute limits** — A stunning single-page UI showcase built on Laravel 10 demonstrating every cutting-edge feature of Tailwind CSS 4.0.
+# — Laravel 10
 
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
