@@ -9,23 +9,6 @@
 
 ---
 
-## 🎯 Features Showcase
-
-| Section | Feature | Tailwind 4 Capability |
-|---------|---------|----------------------|
-| 🏠 Hero | Animated orbs, gradient text | P3 OKLCH gradients, `@starting-style`, morphing blobs |
-| 🪟 Glassmorphism | Frosted glass cards | `backdrop-blur`, `bg-white/10`, translucent borders |
-| 💡 Neon Glow | Neon text & box shadows | Custom `text-shadow`, `box-shadow`, OKLCH colors |
-| 🎲 3D Transforms | Tilt & flip cards | `perspective`, `rotateX/Y`, `transform-3d`, `backface-hidden` |
-| 📦 Container Queries | Adaptive card layouts | `@container`, `@sm:`, `@md:`, `@lg:` |
-| 🌈 Gradients | 6 gradient types | Linear, radial, conic, animated, repeating |
-| 🎨 Color-Mix & P3 | Color blending swatches | `color-mix()`, `oklch()`, opacity modifiers |
-| ✨ Animations | 8 custom animations | Float, morph, shimmer, bounce, spin, stagger delays |
-| 🌙 Dark Mode | Theme toggle | `dark:` variant, Alpine.js toggle, smooth transitions |
-| 📝 Forms | Interactive inputs | Focus rings, validation, `group-focus-within`, `invalid:` |
-
----
-
 ## 📋 Prerequisites
 
 Pastikan kamu sudah menginstall software berikut:
@@ -133,63 +116,7 @@ laravel10/
 
 ---
 
-## ⚡ Tech Stack
 
-- **Laravel 10** — PHP framework for routing & Blade templating
-- **Tailwind CSS 4.0** — Utility-first CSS with Oxide engine (Rust)
-- **Vite 6** — Lightning-fast build tool with HMR
-- **Alpine.js 3** — Lightweight JS for dark mode toggle & interactivity
-- **@tailwindcss/vite** — First-party Vite plugin for Tailwind 4
-
----
-
-## 🎨 Tailwind CSS 4 Features Yang Digunakan
-
-### CSS-First Configuration
-```css
-@import "tailwindcss";
-
-@theme {
-    --color-neon-pink: oklch(0.7 0.32 350);
-    --color-neon-cyan: oklch(0.8 0.2 195);
-    --animate-float: float 6s ease-in-out infinite;
-}
-```
-
-### OKLCH Colors (P3 Wide Gamut)
-Semua custom color menggunakan format `oklch()` untuk dukungan P3 gamut — warna lebih vibrant di monitor modern.
-
-### Container Queries
-```html
-<div class="@container">
-    <div class="@sm:flex @md:gap-6 @lg:text-2xl">
-        <!-- Adapts based on container, not viewport -->
-    </div>
-</div>
-```
-
-### 3D Transforms
-```css
-.card-3d:hover {
-    transform: rotateY(15deg) rotateX(-5deg) scale(1.05);
-}
-```
-
-### color-mix() Blending
-```css
-background: color-mix(in oklch, oklch(0.7 0.32 350), oklch(0.8 0.2 195) 50%);
-```
-
----
-
-## 📝 Catatan
-
-- Project ini menggunakan **CDN-free setup** — semua assets di-bundle via Vite
-- Pastikan menjalankan `npm run dev` **bersamaan** dengan `php artisan serve`
-- Untuk production, jalankan `npm run build` terlebih dahulu
-- Semua animasi custom didefinisikan di `resources/css/app.css`
-
----
 
 ## 📄 License
 
