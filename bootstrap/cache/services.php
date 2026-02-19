@@ -24,6 +24,7 @@
     20 => 'Termwind\\Laravel\\TermwindServiceProvider',
     21 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     22 => 'App\\Providers\\AppServiceProvider',
+    23 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -41,6 +42,7 @@
     11 => 'Termwind\\Laravel\\TermwindServiceProvider',
     12 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     13 => 'App\\Providers\\AppServiceProvider',
+    14 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
